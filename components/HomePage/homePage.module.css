@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mainHomeContainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.homeLeft{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.homeRight Image{
+    width: 40%;
+}
+.homeRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageStack Image{
+    /* height: 10%;
+    width: 10%; */
+    padding:  10px;
+}
+.imageStack {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.homeLeftHeading{
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    color: #14279b;
+    font-weight: bold;
+}
+
+.homeLeftSubheading{
+    color: #484848;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
