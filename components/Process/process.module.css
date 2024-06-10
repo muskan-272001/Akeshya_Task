@@ -1,0 +1,12 @@
+.container6-subsection{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+        .card{
+           width: 40%; 
+           padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
