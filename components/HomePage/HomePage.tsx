@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 function HomePage() {
   return (
+    <>
     <div>
       <div className={styles.mainHomeContainer}>
         <div className={styles.homeLeft}>
@@ -37,6 +38,9 @@ function HomePage() {
         </div>
       </div>
 
+    </div>
+
+    
       <div className={styles.imageParent}>
         <div className={styles.imageStack}>
           <motion.img
@@ -44,9 +48,10 @@ function HomePage() {
             alt=""
             className="pointer"
             whileHover={{ filter: "grayscale(0%)" }}
-            initial={{ filter: "grayscale(100%)" }}
+            initial={{ filter: "grayscale(100%)"}}
             transition={{ duration: 0.2 }}
-            style={{ width: "100px", height: "100px", cursor: "pointer" }}
+            style={{ width: "90px", height: "80px", cursor: "pointer" }}
+           
           />
           <motion.img
             src="/Stack2.png"
@@ -55,7 +60,7 @@ function HomePage() {
             whileHover={{ filter: "grayscale(0%)" }}
             initial={{ filter: "grayscale(100%)" }}
             transition={{ duration: 0.1 }}
-            style={{ width: "100px", height: "100px", cursor: "pointer" }}
+            style={{ width: "90px", height: "70px", cursor: "pointer" }}
           />
           <motion.img
             src="/Stack3.png"
@@ -64,7 +69,7 @@ function HomePage() {
             whileHover={{ filter: "grayscale(0%)" }}
             initial={{ filter: "grayscale(100%)" }}
             transition={{ duration: 0.1 }}
-            style={{ width: "100px", height: "100px", cursor: "pointer" }}
+            style={{ width: "90px", height: "50px", cursor: "pointer" }}
           />
           <motion.img
             src="/Stack4.png"
@@ -73,7 +78,7 @@ function HomePage() {
             whileHover={{ filter: "grayscale(0%)" }}
             initial={{ filter: "grayscale(100%)" }}
             transition={{ duration: 0.1 }}
-            style={{ width: "100px", height: "100px", cursor: "pointer" }}
+            style={{ width: "90px", height: "70px", cursor: "pointer" }}
           />
           <motion.img
             src="/Stack5.png"
@@ -82,7 +87,7 @@ function HomePage() {
             whileHover={{ filter: "grayscale(0%)" }}
             initial={{ filter: "grayscale(100%)" }}
             transition={{ duration: 0.1 }}
-            style={{ width: "100px", height: "100px", cursor: "pointer" }}
+            style={{ width: "90px", height: "25px", cursor: "pointer" }}
           />
           <motion.img
             src="/Stack6.png"
@@ -91,11 +96,12 @@ function HomePage() {
             whileHover={{ filter: "grayscale(0%)" }}
             initial={{ filter: "grayscale(100%)" }}
             transition={{ duration: 0.1 }}
-            style={{ width: "100px", height: "100px", cursor: "pointer" }}
+            style={{ width: "90px", height: "70px", cursor: "pointer" }}
           />
         </div>
       </div>
-    </div>
+    
+    </>
   );
 }
 

@@ -1,89 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.mainHomeContainer{
-    height: 80vh;
+.mainHomeContainer {
+    height: 100vh;
     display: flex;
     flex-direction: row;
 }
-.homeLeft{
-    margin-right: 20%;
-    /* width: 50%; */
+
+.homeLeft {
+    margin-left: 5%;
+    width: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.homeRight Image{
+
+.homeRight Image {
     width: 40%;
 }
-.homeRight{
+
+.homeRight {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 5%;
 }
 
-.imageParent{
+.imageParent {
     /* background-color: yellow; */
     height: 150px;
-    width: 2000px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f3f9fd;
 
 }
+
 
 .imageStack {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 10px;
     width: 100px;
-    gap:150px;
-    margin-right: 27%;
-/* display: flex;
-align-items: center;
-justify-content: space-between; */
-/* display: flex;
-justify-content: center; */
-/* gap: 30; */
-/* height: 100px;
+    gap: 100px;
+    /* margin-right: 27%; */
 
-width: 100px; */
-
-
-/* height: 512px;
-    width: 512px; */
-/* background-color: red; */
-/* gap: 1000; */
-}
-
-.stackImage{
-    /* background-color: green; */
-    /* height: 512px;
-    width: 512px; */
-    /* padding:  10px; */
-    cursor: pointer;
 }
 
 
-
-.homeLeftHeading{
+.homeLeftHeading {
     font-size: 48px;
     font-family: 'Raleway', sans-serif;
     color: #14279b;
     font-weight: bold;
 }
 
-.homeLeftSubheading{
+.homeLeftSubheading {
     color: #484848;
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
 }
 
-.homeLeftButton{
-    color:#14279b;
+.homeLeftButton {
+    margin-top: 10%;
+    color: #14279b;
     border: #14279b solid;
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     /* background-color: #14279b; Adjust the background color as per your design */
     /* color: white; */
     text-decoration: none;
@@ -92,11 +76,11 @@ width: 100px; */
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    height: 41px;
+    width: 160px;
 }
 
 .homeLeftButton:hover {
     color: white;
     background-color: #14279b;
 }
-
-
