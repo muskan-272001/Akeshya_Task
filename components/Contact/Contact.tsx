@@ -1,73 +1,25 @@
 import React, { useState } from 'react';
+import SectionHeading from '../section-heading';
+import styles from "./contact.module.css"
 
 const Contact = () => {
-//   const [name, setName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [subject, setSubject] = useState('');
-//   const [message, setMessage] = useState('');
-
-//   const handleSubmit = async (event) => {
-//     event.preventDefault();
-
-//     TODO: Implement form submission logic
-//     This is where you would send the form data to your backend
-//     or use a third-party service like Mailchimp to send an email
-
-//     console.log('Form submitted with data:', {
-//       name,
-//       email,
-//       subject,
-//       message,
-//     });
-
-//     // Reset form fields after submission
-//     setName('');
-//     setEmail('');
-//     setSubject('');
-//     setMessage('');
-//   };
 
   return (
-    <div className="container">
-      <h2 className="title">Contact Us</h2>
-      <form>
-        <div className="form-group">
-          <label htmlFor="name">Your Name</label>
-          <input
-            type="text"
-            id="name"
-            // value={name}
-            // onChange={(e) => setName(e.target.value)}
-            required
-          />
+    <div className={styles.container}>
+      <div className={styles.info}>
+        <h1>Akeshya</h1>
+        <p>Designers, developers & marketeers capable of delivering solutions according to your needs,</p>
+        <div className={styles.contactDetails}>
+          <span>📍 26-2-789, 7th street, Jyothi Nagar, Nellore, Andhra Pradesh 524004</span>
+          <span>📧 info@akeshya.com</span>
+          <span>📞 +91 94942 40922</span>
         </div>
-        <div className="form-group">
-          <label htmlFor="email">Your Email</label>
-          <input
-            type="email"
-            id="email"
-            // value={email}
-            // onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="subject">Subject</label>
-          <input
-            type="text"
-            id="subject"
-            // value={subject}
-            // onChange={(e) => setSubject(e.target.value)}
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            // value={message}
-            // onChange={(e) => setMessage(e.target.value)}
-          />
-        </div>
+      </div>
+      <form className={styles.form}>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" required />
+        <textarea placeholder="Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
     </div>
