@@ -7,55 +7,6 @@ import SectionHeading from "../section-heading";
 
 function Process() {
     return (
-    //     <motion.section
-     
-    //   className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-    //   initial={{ opacity: 0, y: 100 }}
-    //   animate={{ opacity: 1, y: 0 }}
-    //   transition={{ delay: 0.175 }}
-    //   id="about"
-    // >
-    //   <SectionHeading>Process</SectionHeading>
-    //     <div className="subSection">Over the years we’ve evolved a tested method for attaining achievement for each one of our clients.</div>
-    // <div className="container6">
-    //     <div className="container6-subsection">
-    //         <div className="card">
-    //             <div className="cardtitle">
-    //                 1. Planning
-    //             </div>
-    //             <div className="cardtext">
-    //                 We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we're all on the same page.
-    //             </div>
-    //         </div>
-    //         <div className="card">
-    //             <div className="cardtitle">
-    //                 1. Planning
-    //             </div>
-    //             <div className="cardtext">
-    //                 We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we're all on the same page.
-    //             </div>
-    //         </div>
-    //     </div>
-    //     <div className="container6-subsection">
-    //         <div className="card">
-    //             <div className="cardtitle">
-    //                 1. Planning
-    //             </div>
-    //             <div className="cardtext">
-    //                 We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we're all on the same page.
-    //             </div>
-    //         </div>
-    //         <div className="card">
-    //             <div className="cardtitle">
-    //                 1. Planning
-    //             </div>
-    //             <div className="cardtext">
-    //                 We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we're all on the same page.
-    //             </div>
-    //         </div>
-    //     </div>
-    // </div>
-    // </motion.section>
 
    
 
@@ -65,7 +16,7 @@ function Process() {
       <p className="text-center mb-16">
         Over the years we've evolved a tested method for attaining achievement for each one of our clients.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-40 gap-x-20">
         <div className="bg-white p-8 rounded-lg shadow-md">
           <h3 className="text-2xl font-bold mb-4">1. Planning</h3>
           <p>
@@ -84,6 +35,9 @@ function Process() {
             return on innovation.
           </p>
         </div>
+        {/* <div className={styles.dummy}>
+          hello
+        </div> */}
         <div className="bg-white p-8 rounded-lg shadow-md">
           <h3 className="text-2xl font-bold mb-4">3. Development</h3>
           <p>

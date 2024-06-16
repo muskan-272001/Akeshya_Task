@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .mainHomeContainer {
     height: 100vh;
@@ -26,7 +26,6 @@
 }
 
 .imageParent {
-    /* background-color: yellow; */
     height: 150px;
     width: 100%;
     display: flex;
@@ -44,7 +43,6 @@
     height: 10px;
     width: 100px;
     gap: 100px;
-    /* margin-right: 27%; */
 
 }
 
@@ -68,16 +66,93 @@
     border: #14279b solid;
     border-radius: 50px;
     padding: 10px 10px;
-    /* background-color: #14279b; Adjust the background color as per your design */
-    /* color: white; */
     text-decoration: none;
-    /* border-radius: 50px; */
     transition: background-color 0.3s ease;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
     height: 41px;
     width: 160px;
+}
+
+.homeLeftButton:hover {
+    color: white;
+    background-color: #14279b;
+} */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mainHomeContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.homeLeft {
+    margin-left: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeRight img {
+    width: 100%; /* Adjust according to your layout */
+}
+
+.homeRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.imageParent {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f9fd;
+}
+
+.imageStack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 100%;
+    gap: 110px;
+}
+
+.homeLeftHeading {
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    color: #14279b;
+    font-weight: bold;
+}
+
+.homeLeftSubheading {
+    color: #484848;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.homeLeftButton {
+    margin-top: 10px; /* Adjust spacing */
+    color: #14279b;
+    border: 2px solid #14279b;
+    border-radius: 50px;
+    padding: 10px 20px; /* Adjust padding */
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    height: 41px; /* Adjust height */
+    width: 160px; /* Adjust width */
 }
 
 .homeLeftButton:hover {

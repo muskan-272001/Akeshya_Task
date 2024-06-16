@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
     padding: 40px;
     /* max-width: 1200px; */
@@ -7,20 +8,25 @@
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    gap: 30px;
 }
 
 .info {
+    /* flex-direction: column; */
     /* flex: 1; */
     /* margin-right: 40px; */
+    background-color: yellow;
+    width: 30%;
 }
 
 .info h1 {
-    font-size: 2.5rem;
+    font-size: 10px;
     color: #1e3a8a;
 }
 
 .info p {
     /* margin: 20px 0; */
+
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
@@ -28,7 +34,9 @@
 
 .contactDetails {
     /* display: flex; */
-    gap: 20px;
+    /* gap: 20px; */
+    background-color: red;
+    width: 20%;
     margin-top: 20px;
     font-size: 1rem;
     color: #333;
