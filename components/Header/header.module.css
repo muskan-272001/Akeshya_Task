@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* 
-.mainNav {
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logoText {
-    display: flex;
-    align-items: center;
-    gap: 8;
-}
-
-.textName {
-    font-size: 30px;
-    color: #14279b;
-    font-weight: 550;
-    font-family: 'Raleway', sans-serif;
-   
-}
-
-.Link {
-    cursor: pointer;
-} */
-
-
 
 .mainContainer {
     display: flex;
@@ -38,23 +12,15 @@
     /* background: red; */
 }
 
-
-
-
-
-
-
-
-
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px;
+    padding: 10px 10px;
     background-color: white;
-    width: 1650px;;
+    width: 100vw;;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    /* position: absolute; */
 }
 
 .logo {
@@ -73,7 +39,7 @@
 .logoText {
     font-family: "Raleway", sans-serif;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     
     color: #14279b; /* Adjust the color as per your design */
 }
